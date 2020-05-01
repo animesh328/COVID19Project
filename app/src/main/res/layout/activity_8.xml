@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/img1"
+    tools:context=".Activity8">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+        <TextView
+            android:id="@+id/textView3"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="20dp"
+            android:gravity="center_horizontal"
+            android:text="Financial Affects"
+            android:textColor="#303F9F"
+            android:textSize="35dp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/textView7"
+            android:layout_width="match_parent"
+            android:layout_height="687dp"
+            android:layout_marginLeft="15dp"
+            android:layout_marginTop="10dp"
+            android:layout_marginRight="10dp"
+            android:text='The COVID-19 pandemic has caused an unprecedented human and health crisis. The measures necessary to contain the virus have triggered an economic downturn. At this point, there is great uncertainty about its severity and length. The latest Global Financial Stability Report shows that the financial system has already felt a dramatic impact, and a further intensification of the crisis could affect global financial stability.\n\nSince the pandemic’s outbreak, prices of risk assets have fallen sharply. At the worst point of the recent selloff, risk assets suffered half or more of the declines they experienced in 2008 and 2009. For example, many equity markets—in economies large and small—have endured declines of 30 percent or more at the trough. Credit spreads have jumped, especially for lower-rated firms. Signs of stress have also emerged in major short-term funding markets, including the global market for U.S. dollars.'
+            android:textColor="#0C0D0F"
+            android:textSize="20dp" />
+
+        <ImageView
+            android:id="@+id/imageView10"
+            android:layout_width="match_parent"
+            android:layout_height="536dp"
+            app:srcCompat="@drawable/graph" />
+
+        <Button
+            android:id="@+id/bt1"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="120dp"
+            android:layout_marginRight="120dp"
+            android:layout_marginBottom="10dp"
+            android:background="#795548"
+            android:text="Home"
+            android:textColor="#FFFFFF" />
+    </LinearLayout>
+</ScrollView>
