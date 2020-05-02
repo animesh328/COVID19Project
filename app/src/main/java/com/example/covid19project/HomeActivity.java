@@ -38,6 +38,7 @@ public class HomeActivity extends AppCompatActivity //implements NavigationView.
     Button btn4;
     Button btn5;
     Button btn6;
+
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
@@ -50,6 +51,7 @@ public class HomeActivity extends AppCompatActivity //implements NavigationView.
         btn4=findViewById(R.id.btn4);
         btn5=findViewById(R.id.btn5);
         btn6=findViewById(R.id.btn6);
+
 
         btn1.setOnClickListener(new View.OnClickListener() {
             @Override

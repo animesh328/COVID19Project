@@ -30,6 +30,7 @@
             android:layout_marginLeft="15dp"
             android:layout_marginTop="10dp"
             android:layout_marginRight="10dp"
+            android:scrollbars="vertical"
             android:text="Coronavirus disease (COVID-19) is an infectious disease caused by a newly discovered coronavirus.
 Most people who fall sick with COVID-19 will experience mild to moderate symptoms and recover without special treatment."
             android:textColor="#141316"
@@ -47,6 +48,7 @@ Most people who fall sick with COVID-19 will experience mild to moderate symptom
             android:layout_height="wrap_content"
             android:layout_marginLeft="15dp"
             android:layout_marginTop="4dp"
+            android:scrollbars="vertical"
             android:layout_marginRight="10dp"
             android:text="According to researchers,there are three distinct variants of Covid-19 i.e Covid-19 causing virus is performing mutation.They are labelled as A,B,C.  "
             android:textColor="#181718"

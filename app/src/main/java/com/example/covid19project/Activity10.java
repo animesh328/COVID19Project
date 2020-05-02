@@ -11,7 +11,7 @@ import android.view.View;
 import android.widget.Button;
 
 public class Activity10 extends AppCompatActivity {
-Button mt1,mt2;
+Button mt1,mt2,bn1;
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
@@ -19,6 +19,7 @@ Button mt1,mt2;
         getSupportActionBar().setTitle("Thanks");
         mt2=findViewById(R.id.mt2);
         mt1=findViewById(R.id.mt1);
+        bn1=findViewById(R.id.bn1);
 
         mt2.setOnClickListener(new View.OnClickListener() {
             @Override
@@ -27,6 +28,14 @@ Button mt1,mt2;
                 startActivity(inte);
             }
         });
+        bn1.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                Intent inte=new Intent(Intent.ACTION_DIAL,Uri.parse("tel:+911123978046"));
+                startActivity(inte);
+            }
+        });
+
     }
     public void bro(View view)
     {

@@ -29,6 +29,7 @@
             android:layout_marginLeft="15dp"
             android:layout_marginTop="10dp"
             android:layout_marginRight="10dp"
+            android:scrollbars="vertical"
             android:text='The COVID-19 pandemic has caused an unprecedented human and health crisis. The measures necessary to contain the virus have triggered an economic downturn. At this point, there is great uncertainty about its severity and length. The latest Global Financial Stability Report shows that the financial system has already felt a dramatic impact, and a further intensification of the crisis could affect global financial stability.\n\nSince the pandemic’s outbreak, prices of risk assets have fallen sharply. At the worst point of the recent selloff, risk assets suffered half or more of the declines they experienced in 2008 and 2009. For example, many equity markets—in economies large and small—have endured declines of 30 percent or more at the trough. Credit spreads have jumped, especially for lower-rated firms. Signs of stress have also emerged in major short-term funding markets, including the global market for U.S. dollars.'
             android:textColor="#0C0D0F"
             android:textSize="20dp" />

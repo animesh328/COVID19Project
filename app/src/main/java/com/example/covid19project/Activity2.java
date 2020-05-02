@@ -6,8 +6,10 @@ import androidx.appcompat.app.AppCompatActivity;
 import android.content.DialogInterface;
 import android.content.Intent;
 import android.os.Bundle;
+import android.text.method.ScrollingMovementMethod;
 import android.view.View;
 import android.widget.Button;
+import android.widget.TextView;
 
 public class Activity2 extends AppCompatActivity {
 
@@ -33,6 +35,7 @@ public class Activity2 extends AppCompatActivity {
                 startActivity(intent);
             }
         });
+
     }
     @Override
     public void onBackPressed() {
